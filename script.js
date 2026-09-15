@@ -57,4 +57,3 @@ document.addEventListener("keydown", (event) => {
   const button = keyButtons[index];
   playSample(mainSamples[index], button);
 });
-git status
