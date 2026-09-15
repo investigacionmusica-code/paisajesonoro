@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f1ede4">
+  <title>Uniendo Sedes a través del Paisaje Sonoro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="masthead">
+      <div class="eyebrow"><span class="signal-dot"></span> Archivo vivo · FB Artes</div>
+      <div class="mark" aria-label="Fundación Universitaria Bellas Artes">FUBA <span>/</span> SC</div>
+    </header>
+
+    <section class="intro" aria-labelledby="page-title">
+      <div class="intro-copy">
+        <p class="kicker">Semillero de investigación-creación en música</p>
+        <h1 id="page-title">Uniendo Sedes a través del <em>Paisaje Sonoro</em></h1>
+        <p class="lead">Una colección para escuchar la ciudad desde sus detalles: motores, voces, ritmos y silencios convertidos en teclas.</p>
+      </div>
+      <div class="project-note">
+        <div><span>Proyecto</span><strong>Fundación Universitaria<br>Bellas Artes</strong></div>
+        <div><span>Dirección</span><strong>Juliana Mesa Jaramillo</strong></div>
+        <div><span>Samples editadas por</span><strong>Maria Magenta Neira</strong></div>
+      </div>
+    </section>
+
+    <section class="instrument" aria-labelledby="instrument-title">
+      <div class="instrument-topline">
+        <div>
+          <p class="section-label">Instrumento de escucha</p>
+          <h2 id="instrument-title">Piano de la calle <span id="sample-count">39</span></h2>
+        </div>
+        <div class="now-playing" aria-live="polite"><span class="playing-dot"></span><span id="now-playing">Selecciona una tecla para comenzar</span></div>
+      </div>
+      <div class="piano-frame">
+        <div class="keyboard" id="keyboard" role="group" aria-label="Piano de muestras sonoras"></div>
+      </div>
+      <div class="instrument-footer">
+        <span><kbd>click</kbd> o <kbd>teclado</kbd> para activar</span>
+        <span class="audio-status"><span class="status-light"></span> sonido listo</span>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span>Medellín · Colombia</span>
+      <span>Una escucha compartida entre sedes</span>
+      <span>© Semillero de música</span>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
